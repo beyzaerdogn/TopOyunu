@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.BouncingBallController">
+    <children>
+        <Circle fx:id="ball" fill="#0084ff" radius="20.0" />
+        <Button fx:id="upButton" layoutX="182.0" layoutY="19.0" mnemonicParsing="false" onAction="#moveUp" text="Up"/>
+        <Button fx:id="downButton" layoutX="182.0" layoutY="71.0" mnemonicParsing="false" onAction="#moveDown"
+                text="Down"/>
+        <Button fx:id="leftButton" layoutX="120.0" layoutY="45.0" mnemonicParsing="false" onAction="#moveLeft"
+                text="Left"/>
+        <Button fx:id="rightButton" layoutX="244.0" layoutY="45.0" mnemonicParsing="false" onAction="#moveRight" text="Right" />
+    </children>
+</Pane>
